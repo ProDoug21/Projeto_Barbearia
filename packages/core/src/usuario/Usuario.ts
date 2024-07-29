@@ -1,6 +1,5 @@
 export default interface Usuario {
-    email:String
-    name: String
-    telefone: String
-
+    email: string
+    nome: string
+    telefone?: string
 }
